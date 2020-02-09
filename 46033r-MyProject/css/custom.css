@@ -1,0 +1,21 @@
+﻿.menu ul {
+    border-bottom: 1px solid #2b7a78;
+    background-color: #2b7a78
+}
+
+    .menu ul li {
+        border: 1px solid white;
+        background-color: #2b7a78;
+        text-decoration: none;
+        padding: 3px;
+        margin: 3px;
+    }
+
+        .menu ul li a {
+            color: White;
+        }
+
+            .menu ul li a:hover {
+                font-weight: bold;
+                background-color: #215d5b;
+            }
