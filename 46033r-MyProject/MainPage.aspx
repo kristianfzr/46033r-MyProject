@@ -11,15 +11,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="menu">
-                <Items>
-                    <asp:MenuItem Text="Home" NavigateUrl="Home.aspx" />
-                    <asp:MenuItem Text="Contact us" NavigateUrl="ContactUs.aspx" />
-                    <asp:MenuItem Text="About us" NavigateUrl="AboutUs.aspx" />
-                </Items>
-            </asp:Menu>
+        <div class="siteName">
+            <img src="images/logo3.jpg" class="logo" width="80px" height="60px"/>
+            <p>Върховен касационен съд</p>
         </div>
+        <ul class="menu">
+            <li><a href="#home">НАЧАЛО</a></li>
+            <li><a href="#news">СПРАВКИ ЗА ДЕЛА</a></li>
+            <li><a href="#contact">ПРЕСОФИС</a></li>
+            <li><a href="#about">КОНТАКТИ</a></li>
+        </ul>
+        <p>
+            <center>
+                   <asp:Image class="underMenu" runat="server" Height="274px" ImageUrl="~/images/main.jpg" Width="818px" />
+            </center>
+        </p>
     </form>
 </body>
 </html>
