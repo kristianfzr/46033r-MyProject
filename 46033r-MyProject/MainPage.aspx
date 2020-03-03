@@ -38,7 +38,7 @@
 			<ul>
 				<li><a href="/home.nsf/rss-bg.xml"><img src="/images/rss.jpg" alt="RSS Icon"/></a></li>
 				<li></li>
-				<li id="contacts"><a id="contacts" href="/pages/bg/contacts" title="Контакти" target="">Контакти</a></li><li id="movement_Old"><a id="movement_Old" href="/pages/bg/movement_Old" title="Движение на делата (Органограма)" target="_self"></a></li><li id="$sitemap"><a id="$sitemap" href="/pages/bg/$sitemap" title="Карта на сайта" target=""></a></li>
+				<li id="contacts"><a id="contacts" href="/pages/contacts.aspx" title="Контакти" target="">Контакти</a></li><li id="movement_Old"><a id="movement_Old" href="/pages/movement_Old" title="Движение на делата (Органограма)" target="_self"></a></li><li id="$sitemap"><a id="$sitemap" href="/pages/bg/$sitemap" title="Карта на сайта" target=""></a></li>
 				<li></li>
 			</ul>
 		</div>
@@ -49,12 +49,12 @@
 		<ul>
             <li class="mnav_sel" id="home"><a class="mnav_sel" id="home" href="/MainPage.aspx" title="" >Начало</a></li>
             <li id="about"><a id="about" href="/pages/about.aspx" title="За Върховния административен съд" >За ВАС</a></li>
-            <li id="news"><a id="news" href="/pages/bg/newsreel" title="Новини" >Новини</a></li>
-            <li id="practice"><a id="practice" href="/pages/bg/interpretations" title="Съдебна практика" >Съдебна практика</a></li>
-            <li id="citizens"><a id="citizens" href="/pages/bg/laws" title="За граждани" >Полезно</a></li>
-            <li id="inquiry"><a id="inquiry" href="/pages/bg/reports" title="Справки" >Справки</a></li>
-            <li id="gallery"><a id="gallery" href="/pages/bg/reports" title="Галерия" >Галерия</a></li>
-            <li id="login"><a id="login" href="/pages/bg/reports" title="Вход" >Вход</a></li>
+            <li id="news"><a id="news" href="/pages/newsreel.aspx" title="Новини" >Новини</a></li>
+            <li id="practice"><a id="practice" href="/pages/interpretations.aspx" title="Съдебна практика" >Съдебна практика</a></li>
+            <li id="citizens"><a id="citizens" href="/pages/laws.aspx" title="За граждани" >Полезно</a></li>
+            <li id="inquiry"><a id="inquiry" href="/pages/reports.aspx" title="Справки" >Справки</a></li>
+            <li id="gallery"><a id="gallery" href="/pages/gallery.aspx" title="Галерия" >Галерия</a></li>
+            <li id="login"><a id="login" href="/pages/login.aspx" title="Вход" >Вход</a></li>
 		<div id="search">
 			</form>
 			<form id="fNewSearch" action="/home.nsf/fNewSearch" method="POST" onSubmit="return check_search_fields()">
@@ -97,7 +97,7 @@
 <div class="news-section-title"><h2>Новини</h2></div>
 <div class="news-section-content">
 <p><a href="/news/bg/2020219-1">19.2.2020</a> ВАС определи Административен съд - София град да продължи дело по жалба на физическо лице за изчитане на лични данни от НАП </p><p><a href="/news/bg/2020212-1">12.2.2020</a> Тричленен състав на ВАС отмени наредбата с образците за заповедното производство</p><p><a href="/news/bg/2020211-1">11.2.2020</a> ВАС остави без уважение искане за преюдициално запитване до СЕС по дело за дяловото разпределение на парното в сгради етажна собственост</p>
-<p align="right"><A href="/pages/bg/newsreel">Всички новини</A></p>
+<p align="right"><A href="/pages/newsreel.aspx">Всички новини</A></p>
 </div>
 
 </div>
@@ -105,7 +105,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p><br>
 <p>&nbsp;</p><br>
-<div style="display: block; position: absolute; margin-left: 769px;margin-top: -50px;"><A href="/pages/bg/InoModel"><img src="/images/InoModel.jpg"></A></div><p>&nbsp;</p>
+<div style="display: block; position: absolute; margin-left: 769px;margin-top: -50px;"><A href="/pages/InoModel.aspx"><img src="/images/InoModel.jpg"></A></div><p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>
  
@@ -119,10 +119,10 @@
 			<div class="footer-column"><strong>Върховен административен съд</strong><br/><br/>София 1301<br/>бул."Александър Стамболийски" 18<br/>Телефони за връзка:<br/>(02) 9404111; 9404249; 9404345</br>Факс: (02) 9404132</div>
 		</div>
 		<div style="float:left">
-			<div class="footer-column"><ul><li id="departmental"><a id="departmental" href="/pages/bg/departmental" title="Ведомствени жилища" >Ведомствени жилища</a></li><li id="magazine"><a id="magazine" href="/pages/bg/magazine" title="Списание "Административно правосъдие"" _self>Списание "Административно правосъдие"</a></li><li id="blanks"><a id="blanks" href="/pages/bg/forms" title="Бланки и формуляри" >Бланки и формуляри</a></li><li id="privacy policy"><a id="privacy policy" href="/pages/bg/privacy policy" title="Политика за защита на личните данни" >Политика за защита на личните данни</a></li></ul></div>
-			<div class="footer-column"><ul><li id="links"><a id="links" href="/pages/bg/links" title="Полезни връзки" >Полезни връзки</a></li></ul></div>
-			<div class="footer-column"><ul><li id="concursi"><a id="concursi" href="/pages/bg/concursi" title="Конкурси" _self>Конкурси</a></li><li id="buyer-profile"><a id="buyer-profile" href="/pages/bg/buyer-profile" title="Профил на купувача" >Профил на купувача</a></li></ul></div>
-			<div class="footer-column"><ul><li id="legal-framework"><a id="legal-framework" href="/pages/bg/legal-framework" title="Правна рамка" >Правна рамка</a></li></ul></div>
+			<div class="footer-column"><ul><li id="departmental"><a id="departmental" href="/pages/departmental.aspx" title="Ведомствени жилища" >Ведомствени жилища</a></li><li id="magazine"><a id="magazine" href="/pages/magazine.aspx" title="Списание "Административно правосъдие"" _self>Списание "Административно правосъдие"</a></li><li id="blanks"><a id="blanks" href="/pages/bg/forms" title="Бланки и формуляри" >Бланки и формуляри</a></li><li id="privacy policy"><a id="privacy policy" href="/pages/bg/privacy policy" title="Политика за защита на личните данни" >Политика за защита на личните данни</a></li></ul></div>
+			<div class="footer-column"><ul><li id="links"><a id="links" href="/pages/links.aspx" title="Полезни връзки" >Полезни връзки</a></li></ul></div>
+			<div class="footer-column"><ul><li id="concursi"><a id="concursi" href="/pages/concursi.aspx" title="Конкурси" _self>Конкурси</a></li><li id="buyer-profile"><a id="buyer-profile" href="/pages/buyer-profile.aspx" title="Профил на купувача" >Профил на купувача</a></li></ul></div>
+			<div class="footer-column"><ul><li id="legal-framework"><a id="legal-framework" href="/pages/legal-framework.aspx" title="Правна рамка" >Правна рамка</a></li></ul></div>
 		</div>
 		<div class="footer-project">Проектът е осъществен с финансовата подкрепа на Оперативна програма "Административен капацитет", съфинансирана от Европейския съюз чрез Европейския социален фонд</div>
 		<div style="float:left"><img src="/images/footer-eu-flags.jpg" /></div>
