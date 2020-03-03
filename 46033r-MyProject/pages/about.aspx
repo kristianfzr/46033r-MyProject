@@ -39,7 +39,7 @@ function _doClick(v, o, t) {
 			<ul>
 				<li><a href="/home.nsf/rss-bg.xml"><img src="/images/rss.jpg" alt="RSS Icon"/></a></li>
 				<li></li>
-				<li id="contacts"><a id="contacts" href="/pages/bg/contacts" title="Контакти" target="">Контакти</a></li><li id="movement_Old"><a id="movement_Old" href="/pages/bg/movement_Old" title="Движение на делата (Органограма)" target="_self"></a></li><li id="$sitemap"><a id="$sitemap" href="/pages/bg/$sitemap" title="Карта на сайта" target=""></a></li>
+				<li id="contacts"><a id="contacts" href="/pages/contacts.aspx" title="Контакти" target="">Контакти</a></li><li id="movement_Old"><a id="movement_Old" href="/pages/movement_Old" title="Движение на делата (Органограма)" target="_self"></a></li><li id="$sitemap"><a id="$sitemap" href="/pages/$sitemap" title="Карта на сайта" target=""></a></li>
 				<li></li>
 			</ul>
 		</div>
@@ -47,7 +47,7 @@ function _doClick(v, o, t) {
 </div>
 <div id="navigation-container">
 	<div id="navigation">
-		<ul><li id="home"><a id="home" href="/MainPage.aspx" title="" >Начало</a></li><li class="mnav_sel" id="about"><a class="mnav_sel" id="about" href="/pages/bg/about" title="За Върховния административен съд" >За ВАС</a></li><li id="news"><a id="news" href="/pages/bg/newsreel" title="Новини" >Новини</a></li><li id="practice"><a id="practice" href="/pages/bg/interpretations" title="Съдебна практика" >Съдебна практика</a></li><li id="citizens"><a id="citizens" href="/pages/bg/laws" title="За граждани" >Полезно</a></li><li id="inquiry"><a id="inquiry" href="/pages/bg/reports" title="Справки" >Справки</a></li></ul>
+		<ul><li id="home"><a id="home" href="/MainPage.aspx" title="" >Начало</a></li><li class="mnav_sel" id="about"><a class="mnav_sel" id="about" href="/pages/about" title="За Върховния административен съд" >За ВАС</a></li><li id="news"><a id="news" href="/pages/newsreel.aspx" title="Новини" >Новини</a></li><li id="practice"><a id="practice" href="/pages/interpretations.aspx" title="Съдебна практика" >Съдебна практика</a></li><li id="citizens"><a id="citizens" href="/pages/laws" title="За граждани" >Полезно</a></li><li id="inquiry"><a id="inquiry" href="/pages/reports" title="Справки" >Справки</a></li></ul>
 		<div id="search">
 			</form>
 			<form id="fNewSearch" action="/home.nsf/fNewSearch" method="POST" onSubmit="return check_search_fields()">
@@ -68,14 +68,14 @@ function _doClick(v, o, t) {
 <div id="body-container">
 	<div id="body">
 		<div id="sub-nav">
-			<ul><li id="leadership"><a id="leadership" href="/pages/bg/leadership" target="_self" title="ГЕОРГИ ЧОЛАКОВ">Ръководство</a></li><div id="$SUB2$leadership"></div><li id="structure"><a id="structure" href="/pages/bg/structure" target="_self" title="Структура">Структура</a></li><div id="$SUB2$structure"></div><li id="progress-reports"><a id="progress-reports" href="/pages/bg/progress-reports" target="_self" title="Отчетни доклади">Отчети</a></li><div id="$SUB2$progress-reports"></div><li id="Plenum decisions"><a id="Plenum decisions" href="/pages/bg/Plenum decisions" target="_self" title="Решения на Пленума">Решения на Пленума</a></li><div id="$SUB2$Plenum decisions"></div><li id="history"><a id="history" href="/pages/bg/history" target="_self" title="История">История</a></li><div id="$SUB2$history"></div><li id="international activity"><a id="international activity" href="/pages/bg/international activity" target="_self" title="Международна дейност">Международна дейност</a></li><div id="$SUB2$international activity"></div><li id="Presentation"><a id="Presentation" href="/pages/bg/Presentation" target="_self" title="Презентация">Презентация</a></li><div id="$SUB2$Presentation"></div><li id="experts"><a id="experts" href="/pages/bg/experts" target="_self" title="Вещи лица">Вещи лица</a></li><div id="$SUB2$experts"></div></ul>
+			<ul><li id="leadership"><a id="leadership" href="/pages/leadership" target="_self" title="ГЕОРГИ ЧОЛАКОВ">Ръководство</a></li><div id="$SUB2$leadership"></div><li id="structure"><a id="structure" href="/pages/structure" target="_self" title="Структура">Структура</a></li><div id="$SUB2$structure"></div><li id="progress-reports"><a id="progress-reports" href="/pages/progress-reports" target="_self" title="Отчетни доклади">Отчети</a></li><div id="$SUB2$progress-reports"></div><li id="Plenum decisions"><a id="Plenum decisions" href="/pages/Plenum decisions" target="_self" title="Решения на Пленума">Решения на Пленума</a></li><div id="$SUB2$Plenum decisions"></div><li id="history"><a id="history" href="/pages/history" target="_self" title="История">История</a></li><div id="$SUB2$history"></div><li id="international activity"><a id="international activity" href="/pages/international activity" target="_self" title="Международна дейност">Международна дейност</a></li><div id="$SUB2$international activity"></div><li id="Presentation"><a id="Presentation" href="/pages/Presentation" target="_self" title="Презентация">Презентация</a></li><div id="$SUB2$Presentation"></div><li id="experts"><a id="experts" href="/pages/experts" target="_self" title="Вещи лица">Вещи лица</a></li><div id="$SUB2$experts"></div></ul>
 		</div>
 		<div id="side-nav">
 			<div id="imagery"><img src="/images/side-image-3.jpg" atl="fasada"/></div>
 		</div>
 		<div id="body-content" style="width: 496px">
 		<!-- PARENTS - START -->
-		<div id="breadcrumb"><a class="parents_nav" href="/pages/bg/" title="Над 60 000 дела са решени във ВАС и 28-те административни съдилища в страната за 2017 г."></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/bg/" title="ВАС с преюдициално запитване до СЕС по казус с незрящ съдебен заседател, недопускан до заседания в СРС "></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/bg/" title="ВАС отхвърли жалба на кандидата за кмета на София Мая Манолова срещу решение на ЦИК"></a><img src="/images/tnavlast.gif" /></div>
+		<div id="breadcrumb"><a class="parents_nav" href="/pages/" title="Над 60 000 дела са решени във ВАС и 28-те административни съдилища в страната за 2017 г."></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/" title="ВАС с преюдициално запитване до СЕС по казус с незрящ съдебен заседател, недопускан до заседания в СРС "></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/" title="ВАС отхвърли жалба на кандидата за кмета на София Мая Манолова срещу решение на ЦИК"></a><img src="/images/tnavlast.gif" /></div>
 		<!-- PARENTS - END -->
 		<!-- TITLE - START -->
 		<h1>За Върховния административен съд</h1>
@@ -94,10 +94,10 @@ function _doClick(v, o, t) {
 			<div class="footer-column"><strong>Върховен административен съд</strong><br/><br/>София 1301<br/>бул."Александър Стамболийски" 18<br/>Телефони за връзка:<br/>(02) 9404111; 9404249; 9404345</br>Факс: (02) 9404132</div>
 		</div>
 		<div style="float:left">
-			<div class="footer-column"><ul><li id="departmental"><a id="departmental" href="/pages/bg/departmental" title="Ведомствени жилища" >Ведомствени жилища</a></li><li id="magazine"><a id="magazine" href="/pages/bg/magazine" title="Списание "Административно правосъдие"" _self>Списание "Административно правосъдие"</a></li><li id="blanks"><a id="blanks" href="/pages/bg/forms" title="Бланки и формуляри" >Бланки и формуляри</a></li><li id="privacy policy"><a id="privacy policy" href="/pages/bg/privacy policy" title="Политика за защита на личните данни" >Политика за защита на личните данни</a></li></ul></div>
-			<div class="footer-column"><ul><li id="links"><a id="links" href="/pages/bg/links" title="Полезни връзки" >Полезни връзки</a></li></ul></div>
-			<div class="footer-column"><ul><li id="concursi"><a id="concursi" href="/pages/bg/concursi" title="Конкурси" _self>Конкурси</a></li><li id="buyer-profile"><a id="buyer-profile" href="/pages/bg/buyer-profile" title="Профил на купувача" >Профил на купувача</a></li></ul></div>
-			<div class="footer-column"><ul><li id="legal-framework"><a id="legal-framework" href="/pages/bg/legal-framework" title="Правна рамка" >Правна рамка</a></li></ul></div>
+			<div class="footer-column"><ul><li id="departmental"><a id="departmental" href="/pages/departmental" title="Ведомствени жилища" >Ведомствени жилища</a></li><li id="magazine"><a id="magazine" href="/pages/magazine" title="Списание "Административно правосъдие"" _self>Списание "Административно правосъдие"</a></li><li id="blanks"><a id="blanks" href="/pages/forms" title="Бланки и формуляри" >Бланки и формуляри</a></li><li id="privacy policy"><a id="privacy policy" href="/pages/privacy policy" title="Политика за защита на личните данни" >Политика за защита на личните данни</a></li></ul></div>
+			<div class="footer-column"><ul><li id="links"><a id="links" href="/pages/links" title="Полезни връзки" >Полезни връзки</a></li></ul></div>
+			<div class="footer-column"><ul><li id="concursi"><a id="concursi" href="/pages/concursi" title="Конкурси" _self>Конкурси</a></li><li id="buyer-profile"><a id="buyer-profile" href="/pages/buyer-profile" title="Профил на купувача" >Профил на купувача</a></li></ul></div>
+			<div class="footer-column"><ul><li id="legal-framework"><a id="legal-framework" href="/pages/legal-framework" title="Правна рамка" >Правна рамка</a></li></ul></div>
 		</div>
 		<div class="footer-project">Проектът е осъществен с финансовата подкрепа на Оперативна програма "Административен капацитет", съфинансирана от Европейския съюз чрез Европейския социален фонд</div>
 		<div style="float:left"><img src="/images/footer-eu-flags.jpg" /></div>
