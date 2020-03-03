@@ -78,7 +78,7 @@ a {
 #header {
     margin: 0px auto;
     width: 960px;
-    background-image: url("/home.nsf/header-back.jpg");
+    background-image: url("/images/header-back.jpg");
     height: 115px;
     text-align: left;
 }

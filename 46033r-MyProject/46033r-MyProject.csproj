@@ -77,10 +77,18 @@
     <Content Include="css\jquery.fancybox.css" />
     <Content Include="Global.asax" />
     <Content Include="home.nsf\rss-bg.xml" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\footer-eu-flags.jpg" />
+    <Content Include="images\header-back.jpg" />
+    <Content Include="images\InoModel.jpg" />
+    <Content Include="images\jalbi_signali.jpg" />
     <Content Include="images\rss.jpg" />
     <Content Include="images\search-icon.gif" />
     <Content Include="images\shim.gif" />
+    <Content Include="images\side-image-3.jpg" />
     <Content Include="images\side-image-6.jpg" />
+    <Content Include="images\tnavlast.gif" />
+    <Content Include="images\tnavnext.gif" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
@@ -88,6 +96,7 @@
     <Content Include="js\jquery-latest.min.js" />
     <Content Include="js\jquery.fancybox.pack.js" />
     <Content Include="MainPage.aspx" />
+    <Content Include="pages\about.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +109,13 @@
     </Compile>
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -125,7 +141,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

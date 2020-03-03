@@ -1,9 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="_46033r_MyProject.MainPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="_46033r_MyProject.pages.about" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<title>Върховен административен съд :: </title><link href="/images/favicon.ico"   rel="shortcut icon" type="image/x-icon"/>
+<head>
+<title>Върховен административен съд :: За Върховния административен съд</title><link href="/images/favicon.ico"   rel="shortcut icon" type="image/x-icon"/>
 <META name="copyright" content="2013 SAC"><META name="author" content="SAC"><META name="keywords" content="court">
 
 <link rel="stylesheet" href="/css/custom.css" type="text/css">
@@ -11,24 +12,24 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
 <script type="text/javascript" src="/js/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">$(document).ready(function () { $(".fancybox").fancybox({ loop: false }); });</script>
+<script type="text/javascript">$(document).ready(function() { $(".fancybox").fancybox({loop:false});});</script>
 <script language="JavaScript" type="text/javascript">
 <!-- 
-    document._domino_target = "_self";
-    function _doClick(v, o, t) {
-        var url = "/MainPAge.aspx?OpenDocument&Click=" + v;
-        if (o.href != null)
-            o.href = url;
-        else {
-            if (t == null)
-                t = document._domino_target;
-            window.open(url, t);
-        }
+document._domino_target = "_self";
+function _doClick(v, o, t) {
+  var url="/pages/about.aspx?OpenDocument&Click=" + v;
+  if (o.href != null)
+    o.href = url;
+  else {
+    if (t == null)
+      t = document._domino_target;
+    window.open(url, t);
+  }
 
-    }
+}
 // -->
 </script>
-</head>
+<body>
 <body text="#000000" bgcolor="#FFFFFF" link="#000080" alink="#000080" vlink="#000080">
 
 <form action=""><div id="header-container">
@@ -46,15 +47,7 @@
 </div>
 <div id="navigation-container">
 	<div id="navigation">
-		<ul>
-            <li class="mnav_sel" id="home"><a class="mnav_sel" id="home" href="/MainPage.aspx" title="" >Начало</a></li>
-            <li id="about"><a id="about" href="/pages/about.aspx" title="За Върховния административен съд" >За ВАС</a></li>
-            <li id="news"><a id="news" href="/pages/bg/newsreel" title="Новини" >Новини</a></li>
-            <li id="practice"><a id="practice" href="/pages/bg/interpretations" title="Съдебна практика" >Съдебна практика</a></li>
-            <li id="citizens"><a id="citizens" href="/pages/bg/laws" title="За граждани" >Полезно</a></li>
-            <li id="inquiry"><a id="inquiry" href="/pages/bg/reports" title="Справки" >Справки</a></li>
-            <li id="gallery"><a id="gallery" href="/pages/bg/reports" title="Галерия" >Галерия</a></li>
-            <li id="login"><a id="login" href="/pages/bg/reports" title="Вход" >Вход</a></li>
+		<ul><li id="home"><a id="home" href="/MainPage.aspx" title="" >Начало</a></li><li class="mnav_sel" id="about"><a class="mnav_sel" id="about" href="/pages/bg/about" title="За Върховния административен съд" >За ВАС</a></li><li id="news"><a id="news" href="/pages/bg/newsreel" title="Новини" >Новини</a></li><li id="practice"><a id="practice" href="/pages/bg/interpretations" title="Съдебна практика" >Съдебна практика</a></li><li id="citizens"><a id="citizens" href="/pages/bg/laws" title="За граждани" >Полезно</a></li><li id="inquiry"><a id="inquiry" href="/pages/bg/reports" title="Справки" >Справки</a></li></ul>
 		<div id="search">
 			</form>
 			<form id="fNewSearch" action="/home.nsf/fNewSearch" method="POST" onSubmit="return check_search_fields()">
@@ -74,41 +67,23 @@
 </div>
 <div id="body-container">
 	<div id="body">
-		<div id="side-nav">
-			<div id="reports"><div class="reports-section"><div class="reports-section-title"><h3>Справки по дела</h3></div><div class="reports-section-content"><ul><li><a href="/court22.nsf/($All)/$searchform?SearchView">ВАС - дела</a></li><li><a href="/2courts22.nsf/($All)/$searchform?SearchView"> ВАС/ВКС - дела по спорове за подсъдност</a></li><li><a  href="/TD_VAS.nsf/($All)/$searchform?SearchView">ВАС - тълкувателни дела</a></li><li></li><li><a href="/TR.nsf/($All)/$searchform?SearchView">ВАС/ВКС - тълкувателни дела</a></li></ul></div></div></div>
-			<div id="imagery"><img src="/images/side-image-6.jpg" atl="врати"/></div>
+		<div id="sub-nav">
+			<ul><li id="leadership"><a id="leadership" href="/pages/bg/leadership" target="_self" title="ГЕОРГИ ЧОЛАКОВ">Ръководство</a></li><div id="$SUB2$leadership"></div><li id="structure"><a id="structure" href="/pages/bg/structure" target="_self" title="Структура">Структура</a></li><div id="$SUB2$structure"></div><li id="progress-reports"><a id="progress-reports" href="/pages/bg/progress-reports" target="_self" title="Отчетни доклади">Отчети</a></li><div id="$SUB2$progress-reports"></div><li id="Plenum decisions"><a id="Plenum decisions" href="/pages/bg/Plenum decisions" target="_self" title="Решения на Пленума">Решения на Пленума</a></li><div id="$SUB2$Plenum decisions"></div><li id="history"><a id="history" href="/pages/bg/history" target="_self" title="История">История</a></li><div id="$SUB2$history"></div><li id="international activity"><a id="international activity" href="/pages/bg/international activity" target="_self" title="Международна дейност">Международна дейност</a></li><div id="$SUB2$international activity"></div><li id="Presentation"><a id="Presentation" href="/pages/bg/Presentation" target="_self" title="Презентация">Презентация</a></li><div id="$SUB2$Presentation"></div><li id="experts"><a id="experts" href="/pages/bg/experts" target="_self" title="Вещи лица">Вещи лица</a></li><div id="$SUB2$experts"></div></ul>
 		</div>
-		<div id="body-content" style="width: 728px">
+		<div id="side-nav">
+			<div id="imagery"><img src="/images/side-image-3.jpg" atl="fasada"/></div>
+		</div>
+		<div id="body-content" style="width: 496px">
 		<!-- PARENTS - START -->
 		<div id="breadcrumb"><a class="parents_nav" href="/pages/bg/" title="Над 60 000 дела са решени във ВАС и 28-те административни съдилища в страната за 2017 г."></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/bg/" title="ВАС с преюдициално запитване до СЕС по казус с незрящ съдебен заседател, недопускан до заседания в СРС "></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/bg/" title="ВАС отхвърли жалба на кандидата за кмета на София Мая Манолова срещу решение на ЦИК"></a><img src="/images/tnavlast.gif" /></div>
 		<!-- PARENTS - END -->
 		<!-- TITLE - START -->
-		<h1></h1>
-		<!-- TITLE - END --><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="" valign=top>
+		<h1>За Върховния административен съд</h1>
+		<!-- TITLE - END --><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="text-align:justify;text-indent: 2em;" valign=top>
+ <p>Върховният административен съд осъществява върховен съдебен надзор за точното и еднакво прилагане на законите в административното правораздаване.</p>
+<p><p>Върховният административен съд разглежда жалби и протести срещу актове на Министерския съвет, министър-председателя, заместник министър - председателите, министри, ръководители на други ведомства, непосредствено подчинени на Министерския съвет, актове на Висшия съдебен съвет, актове на Българската народна банка, актове на областните управители, както и други актове, посочени в закон; произнася се по спорове за законосъобразността на подзаконови нормативни актове; проверява като касационна инстанция съдебни актове, постановени по административни дела и разглежда молби за отмяна на влезли в сила съдебни решения по административни дела.</p> 
+</TD></TR></TABLE><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="text-align:justify;text-indent: 2em;" valign=top>
   
-</TD></TR></TABLE><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="" valign=top>
- <br>
-<b><font size="4" face="Tahoma">Добре дошли на страницата на Върховния административен съд</font></b><br>
-<div style="width:344px; float:left;margin-right:40px;text-align:justify"><p>
-<p>Върховният административен съд осъществява върховен съдебен надзор за точното и еднакво прилагане на законите в административното правораздаване.</p><p>Върховният административен съд разглежда жалби и протести срещу актове на Министерския съвет, министър-председателя, заместник министър - председателите, министри, актове на Висшия съдебен съвет, актове на Българската народна банка, и други.</p><br>
-<br>
-<A href="/pages/about.aspx" >Повече информация за съда</A></div>
-<div class="news-section">
-<div class="news-section-title"><h2>Новини</h2></div>
-<div class="news-section-content">
-<p><a href="/news/bg/2020219-1">19.2.2020</a> ВАС определи Административен съд - София град да продължи дело по жалба на физическо лице за изчитане на лични данни от НАП </p><p><a href="/news/bg/2020212-1">12.2.2020</a> Тричленен състав на ВАС отмени наредбата с образците за заповедното производство</p><p><a href="/news/bg/2020211-1">11.2.2020</a> ВАС остави без уважение искане за преюдициално запитване до СЕС по дело за дяловото разпределение на парното в сгради етажна собственост</p>
-<p align="right"><A href="/pages/bg/newsreel">Всички новини</A></p>
-</div>
-
-</div>
-<p><div style="float:left;margin:20px 0 0 225px;text-align:justify"><A href="/pages/bg/signals%20and%20public%20information"><img src="/images/jalbi_signali.jpg"></A></div><br>
-<p>&nbsp;</p>
-<p>&nbsp;</p><br>
-<p>&nbsp;</p><br>
-<div style="display: block; position: absolute; margin-left: 769px;margin-top: -50px;"><A href="/pages/bg/InoModel"><img src="/images/InoModel.jpg"></A></div><p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>
- 
 </TD></TR></TABLE>
 		</div>
 	</div>
@@ -138,7 +113,7 @@
 
     gtag('config', 'UA-41802863-1');
 </script>
-
 </form>
+</body>
 </body>
 </html>
