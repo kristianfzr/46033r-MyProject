@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<channel>
+<title>Върховен административен съд</title>
+<description>Description</description>
+<link>http://www.sac.justice.bg</link>
+<language>bg</language>
+<lastBuildDate>Wed, 19 Feb 2020  +0200</lastBuildDate>
+<item>
+<title>ВАС определи Административен съд - София град да продължи дело по жалба на физическо лице за изчитане на лични данни от НАП </title>
+<pubDate>Wed, 19 Feb 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/2020219-1</link>
+</item>
+<item>
+<title>Тричленен състав на ВАС отмени наредбата с образците за заповедното производство</title>
+<pubDate>Wed, 12 Feb 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/2020212-1</link>
+</item>
+<item>
+<title>ВАС остави без уважение искане за преюдициално запитване до СЕС по дело за дяловото разпределение на парното в сгради етажна собственост</title>
+<pubDate>Tue, 11 Feb 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/2020211-1</link>
+</item>
+<item>
+<title>Върховният административен съд обяви за недействителен избора на кметове на две кметства</title>
+<pubDate>Thu, 6 Feb 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/202026-1</link>
+</item>
+<item>
+<title>ВАС и ВКС отклониха исканията по две тълкувателни дела</title>
+<pubDate>Thu, 6 Feb 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/202026-2</link>
+</item>
+<item>
+<title>ВАС стартира изпълнението на нов проект по Оперативна програма „Добро управление“</title>
+<pubDate>Thu, 23 Jan 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/2020123-1</link>
+</item>
+<item>
+<title>Тричленен състав на ВАС отхвърли жалбата срещу текстове от наредбата на ВСС за конкурсите на магистрати</title>
+<pubDate>Tue, 14 Jan 2020  +0200</pubDate>
+<description></description>
+<link>/news/bg/2020114-1</link>
+</item>
+<item>
+<title>Върховният административен съд със свое решение потвърди конфликт на интереси при кмета на Ботевград
+</title>
+<pubDate>Fri, 13 Dec 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191213-1</link>
+</item>
+<item>
+<title>Върховният административен съд окончателно потвърди отказ за регистрация на еднополов брак в България</title>
+<pubDate>Thu, 12 Dec 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191212-1</link>
+</item>
+<item>
+<title>Петчленен състав на ВАС отмени текстове от Наредбата за работното време, дежурствата и почивките на служителите на МВР</title>
+<pubDate>Wed, 11 Dec 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191211-1</link>
+</item>
+<item>
+<title>Върховният административен съд образува 3 нови тълкувателни дела</title>
+<pubDate>Thu, 5 Dec 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/2019125-1</link>
+</item>
+<item>
+<title>Тричленен състав на ВАС остави в сила решението на КЗК за строежа на националната детска болница</title>
+<pubDate>Wed, 27 Nov 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191127-1</link>
+</item>
+<item>
+<title>Тричленен състав на ВАС отмени  продуктовите такси за превозвачите</title>
+<pubDate>Thu, 31 Oct 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191031-1</link>
+</item>
+<item>
+<title>ВАС отхвърли жалбите срещу конкурса за назначаване в Гражданска колегия на ВКС</title>
+<pubDate>Thu, 31 Oct 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191031-2</link>
+</item>
+<item>
+<title>ВАС отхвърли 2 жалби срещу решения на ЦИК за прекратени правомощия на членове на ОИК в общините Димово и Макреш </title>
+<pubDate>Wed, 16 Oct 2019  +0200</pubDate>
+<description></description>
+<link>/news/bg/20191016-1</link>
+</item>
+
+</channel>
+</rss>

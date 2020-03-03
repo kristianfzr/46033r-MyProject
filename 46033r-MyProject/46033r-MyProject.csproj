@@ -74,17 +74,19 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\custom.css" />
+    <Content Include="css\jquery.fancybox.css" />
     <Content Include="Global.asax" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\logo2.png" />
-    <Content Include="images\logo3.jpg" />
-    <Content Include="images\main.jpg" />
-    <Content Include="images\sculpture.jpg" />
-    <Content Include="images\side.jpg" />
+    <Content Include="home.nsf\rss-bg.xml" />
+    <Content Include="images\rss.jpg" />
+    <Content Include="images\search-icon.gif" />
+    <Content Include="images\shim.gif" />
+    <Content Include="images\side-image-6.jpg" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-latest.min.js" />
+    <Content Include="js\jquery.fancybox.pack.js" />
     <Content Include="MainPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -123,6 +125,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -168,5 +171,5 @@
     </ItemGroup>
     <MakeDir Directories="$(WebProjectOutputDir)\bin\roslyn" />
     <Copy SourceFiles="@(RoslynFiles)" DestinationFolder="$(WebProjectOutputDir)\bin\roslyn" SkipUnchangedFiles="true" Retries="$(CopyRetryCount)" RetryDelayMilliseconds="$(CopyRetryDelayMilliseconds)" />
-</Target>
+  </Target>
 </Project>
