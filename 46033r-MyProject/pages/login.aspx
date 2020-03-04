@@ -29,7 +29,7 @@
                 <tr>
                     <td class="style2">Password:</td>
                     <td>
-                        <asp:TextBox ID="TextBox2" TextMode="Password" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" TextMode="password" runat="server"></asp:TextBox>
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"

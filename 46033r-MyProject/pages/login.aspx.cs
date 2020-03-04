@@ -16,10 +16,10 @@ namespace _46033r_MyProject.pages
         //{
             protected void Button1_Click(object sender, EventArgs e)
             {
-                SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True;User Instance=True");
-                SqlCommand cmd = new SqlCommand("select * from tbl_data where username=@username and word=@word", con);
+                SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True;User Instance=True");
+                SqlCommand cmd = new SqlCommand("select * from tbl_data where username=@username and password=@password", con);
                 cmd.Parameters.AddWithValue("@username", TextBox1.Text);
-                cmd.Parameters.AddWithValue("@word", TextBox2.Text);
+                cmd.Parameters.AddWithValue("password", TextBox2.Text);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
@@ -29,11 +29,11 @@ namespace _46033r_MyProject.pages
 
                 if (dt.Rows.Count > 0)
                 {
-                    Response.Redirect("Redirectform.aspx");
+                    Response.Redirect("/pages/Redirectform.aspx");
                 }
                 else
                 {
-                    Label1.Text = "Your username and word is incorrect";
+                    Label1.Text = "Your username or password is incorrect";
                     Label1.ForeColor = System.Drawing.Color.Red;
 
                 }
