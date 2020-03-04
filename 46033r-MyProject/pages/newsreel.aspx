@@ -17,7 +17,7 @@
 <!-- 
     document._domino_target = "_self";
     function _doClick(v, o, t) {
-        var url = "/pages/newsreel?OpenDocument&Click=" + v;
+        var url = "/pages/newsreel.aspx?OpenDocument&Click=" + v;
         if (o.href != null)
             o.href = url;
         else {
@@ -37,7 +37,6 @@
 		<div id="static-navigation">
 			<ul>
 				<li><a href="/home.nsf/rss-bg.xml"><img src="/images/rss.jpg" alt="RSS Icon"/></a></li>
-				<li>4.3.2020 12:37</li>
 				<li id="contacts"><a id="contacts" href="/pages/contacts.aspx" title="Контакти" target="">Контакти</a></li><li id="movement_Old"><a id="movement_Old" href="/pages/movement_Old.aspx" title="Движение на делата (Органограма)" target="_self"></a></li><li id="$sitemap"><a id="$sitemap" href="/pages/$sitemap" title="Карта на сайта" target=""></a></li>
 				<li></li>
 			</ul>
@@ -48,10 +47,10 @@
 	<div id="navigation">
 		<ul><li id="home"><a id="home" href="/MainPage.aspx" title="" >Начало</a></li>
             <li id="about"><a id="about" href="/pages/about.aspx" title="За Върховния административен съд" >За ВАС</a></li>
-            <li class="mnav_sel" id="news"><a class="mnav_sel" id="news" href="/pages/newsreel" title="Новини" >Новини</a></li>
-            <li id="practice"><a id="practice" href="/pages/interpretations" title="Съдебна практика" >Съдебна практика</a></li>
-            <li id="citizens"><a id="citizens" href="/pages/laws" title="За граждани" >Полезно</a></li>
-            <li id="inquiry"><a id="inquiry" href="/pages/reports" title="Справки" >Справки</a></li>
+            <li class="mnav_sel" id="news"><a class="mnav_sel" id="news" href="/pages/newsreel.aspx" title="Новини" >Новини</a></li>
+            <li id="practice"><a id="practice" href="/pages/interpretations.aspx" title="Съдебна практика" >Съдебна практика</a></li>
+            <li id="citizens"><a id="citizens" href="/pages/laws.aspx" title="За граждани" >Полезно</a></li>
+            <li id="inquiry"><a id="inquiry" href="/pages/reports.aspx" title="Справки" >Справки</a></li>
             <li id="gallery"><a id="gallery" href="/pages/gallery.aspx" title="Галерия" >Галерия</a></li>
             <li id="login"><a id="login" href="/pages/login.aspx" title="Вход" >Вход</a></li>
             </ul>
@@ -76,18 +75,21 @@
 <div id="body-container">
 	<div id="body">
 		<div id="sub-nav">
-			<ul><li class="snav_sel" id="newsreel"><a class="snav_sel" id="newsreel" href="/pages/newsreel.aspx" target="_self" title="Новини">Новини и инициативи</a></li><li id="news-vas" style="padding-left:20px"><a id="news-vas" href="/pages/news-vas.aspx"  title="Новини ВАС">Новини ВАС</a></li><div id="$SUB3$news-vas"></div><li id="news-as" style="padding-left:20px"><a id="news-as" href="/pages/news-as.aspx"  title="Новини АС">Новини АС</a></li><div id="$SUB3$news-as"></div><li id="media about SAC"><a id="media about SAC" href="/pages/media about SAC" target="_self" title="Медиите за ВАС">Медиите за ВАС</a></li><div id="$SUB2$media about SAC"></div><li id="sac projects"><a id="sac projects" href="/pages/sac projects" target="_self" title="Проекти">Проекти</a></li><div id="$SUB2$sac projects"></div><li id="newsarchive-with-years"><a id="newsarchive-with-years" href="/pages/newsarchive-with-years" target="" title="Архив новини">Архив новини</a></li><div id="$SUB2$newsarchive-with-years"></div><li id="other"><a id="other" href="/pages/other" target="_self" title="Друго">Друго</a></li><div id="$SUB2$other"></div></ul>
+			<ul><li class="snav_sel" id="newsreel"><a class="snav_sel" id="newsreel" href="/pages/newsreel.aspx" target="_self" title="Новини">Новини и инициативи</a></li>
+                <li id="news-vas" style="padding-left:20px"><a id="news-vas" href="/pages/news-vas.aspx"  title="Новини ВАС">Новини ВАС</a></li>
+                <div id="$SUB3$news-vas"></div><li id="news-as" style="padding-left:20px"><a id="news-as" href="/pages/news-as.aspx"  title="Новини АС">Новини АС</a></li>
+                <div id="$SUB3$news-as"></div><li id="media about SAC"><a id="media about SAC" href="/pages/media about SAC" target="_self" title="Медиите за ВАС">Медиите за ВАС</a></li><div id="$SUB2$media about SAC"></div>
+                <li id="sac projects"><a id="sac projects" href="/pages/sac projects" target="_self" title="Проекти">Проекти</a></li><div id="$SUB2$sac projects"></div><li id="newsarchive-with-years"><a id="newsarchive-with-years" href="/pages/newsarchive-with-years" target="" title="Архив новини">Архив новини</a></li><div id="$SUB2$newsarchive-with-years"></div><li id="other"><a id="other" href="/pages/other" target="_self" title="Друго">Друго</a></li><div id="$SUB2$other"></div></ul>
 		</div>
 		<div id="side-nav">
 			<div id="imagery"><img src="/images/IMG_0004.jpg" atl="VAS-night"/></div>
 		</div>
 		<div id="body-content" style="width: 496px">
-		<!-- PARENTS - START -->
+		
 		<div id="breadcrumb"><a class="parents_nav" href="/pages/newsreel" title="Новини">НОВИНИ</a><img src="/images/tnavlast.gif" /></div>
-		<!-- PARENTS - END -->
-		<!-- TITLE - START -->
+		
 		<h1>Новини</h1>
-		<!-- TITLE - END --><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="text-align:justify;" valign=top>
+	   <TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="text-align:justify;" valign=top>
  <p><a href="/news/bg/2020219-1">19.2.2020</a> ВАС определи Административен съд - София град да продължи дело по жалба на физическо лице за изчитане на лични данни от НАП </p><p><a href="/news/bg/2020212-1">12.2.2020</a> Тричленен състав на ВАС отмени наредбата с образците за заповедното производство</p><p><a href="/news/bg/2020211-1">11.2.2020</a> ВАС остави без уважение искане за преюдициално запитване до СЕС по дело за дяловото разпределение на парното в сгради етажна собственост</p><p><a href="/news/bg/202026-1">6.2.2020</a> Върховният административен съд обяви за недействителен избора на кметове на две кметства</p><p><a href="/news/bg/202026-2">6.2.2020</a> ВАС и ВКС отклониха исканията по две тълкувателни дела</p><p><a href="/news/bg/2020123-1">23.1.2020</a> ВАС стартира изпълнението на нов проект по Оперативна програма „Добро управление“</p><p><a href="/news/bg/2020114-1">14.1.2020</a> Тричленен състав на ВАС отхвърли жалбата срещу текстове от наредбата на ВСС за конкурсите на магистрати</p><p><a href="/news/bg/20191213-1">13.12.2019</a> Върховният административен съд със свое решение потвърди конфликт на интереси при кмета на Ботевград
 </p><p><a href="/news/bg/20191212-1">12.12.2019</a> Върховният административен съд окончателно потвърди отказ за регистрация на еднополов брак в България</p><p><a href="/news/bg/20191211-1">11.12.2019</a> Петчленен състав на ВАС отмени текстове от Наредбата за работното време, дежурствата и почивките на служителите на МВР</p><p><a href="/news/bg/2019125-1">5.12.2019</a> Върховният административен съд образува 3 нови тълкувателни дела</p><p><a href="/news/bg/20191127-1">27.11.2019</a> Тричленен състав на ВАС остави в сила решението на КЗК за строежа на националната детска болница</p><p><a href="/news/bg/20191031-1">31.10.2019</a> Тричленен състав на ВАС отмени  продуктовите такси за превозвачите</p><p><a href="/news/bg/20191031-2">31.10.2019</a> ВАС отхвърли жалбите срещу конкурса за назначаване в Гражданска колегия на ВКС</p><p><a href="/news/bg/20191016-1">16.10.2019</a> ВАС отхвърли 2 жалби срещу решения на ЦИК за прекратени правомощия на членове на ОИК в общините Димово и Макреш </p><p><a href="/news/bg/20191014-1">14.10.2019</a> Пленумът на ВАС прие промени в правилата за тълкувателна дейност</p><p><a href="/news/bg/2019108-1">8.10.2019</a> ВСС избра председатели на административните съдилища в Стара Загора и Плевен</p><p><a href="/news/bg/2019107-1">7.10.2019</a> Пленумът на ВАС поднови мандатите на съдиите Захаринка Тодорова и Весела Павлова за членове на Комисията по атестирането и конкурсите към ВСС</p><p><a href="/news/bg/2019103-1">3.10.2019</a> ВАС отмени измененията от 2014 г. в Наредбата за минималните размери на адвокатските възнаграждения</p><p><a href="/news/bg/2019102-1">2.10.2019</a> ВАС отхвърли жалба на кандидата за кмета на София Мая Манолова срещу решение на ЦИК</p><p><a href="/news/bg/2019916-1">16.9.2019</a> ВАС прекрати делото срещу решението на КЗК за избор на изпълнител на газовия проект „Турски поток“ на територията на България</p><p><a href="/news/bg/2019813-1">13.8.2019</a> Две жалби срещу решението на ЦИК за определяне на състава на ОИК постъпиха във ВАС</p><p><a href="/news/bg/201988-1">8.8.2019</a> 9900 дела са свършили съдиите от ВАС за първите 6 месеца на 2019 г.</p><p><a href="/news/bg/201987-1">7.8.2019</a> ВАС с преюдициално запитване до СЕС по казус с незрящ съдебен заседател, недопускан до заседания в СРС </p><p><a href="/news/bg/201985-1">5.8.2019</a> ВАС отмени отказ на Министерство на здравеопазването да заплати спешно лечение на българин при посещение в Кралство Мароко</p><br>
 

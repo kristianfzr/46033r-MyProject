@@ -16,7 +16,7 @@
 <!-- 
     document._domino_target = "_self";
     function _doClick(v, o, t) {
-        var url = "/MainPAge.aspx?OpenDocument&Click=" + v;
+        var url = "/MainPage.aspx?OpenDocument&Click=" + v;
         if (o.href != null)
             o.href = url;
         else {

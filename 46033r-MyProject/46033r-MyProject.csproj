@@ -79,21 +79,34 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\custom.css" />
     <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="home.nsf\rss-bg.xml" />
+    <Content Include="images\0.jpg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\ecblank.gif" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\footer-eu-flags.jpg" />
     <Content Include="images\header-back.jpg" />
     <Content Include="images\IMG_0004.jpg" />
+    <Content Include="images\img_lights.jpg" />
+    <Content Include="images\img_mountains.jpg" />
+    <Content Include="images\img_nature.jpg" />
+    <Content Include="images\img_snow.jpg" />
     <Content Include="images\InoModel.jpg" />
     <Content Include="images\jalbi_signali.jpg" />
     <Content Include="images\rss.jpg" />
+    <Content Include="images\sand.jpg" />
     <Content Include="images\search-icon.gif" />
     <Content Include="images\shim.gif" />
     <Content Include="images\side-image-3.jpg" />
     <Content Include="images\side-image-6.jpg" />
+    <Content Include="images\sky.jpg" />
     <Content Include="images\tnavlast.gif" />
     <Content Include="images\tnavnext.gif" />
+    <Content Include="images\top.jpg" />
+    <Content Include="images\tulk-deinost.jpg" />
+    <Content Include="images\wall.jpg" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
@@ -103,9 +116,13 @@
     <Content Include="MainPage.aspx" />
     <Content Include="pages\about.aspx" />
     <Content Include="images\KS3.jpg" />
+    <Content Include="pages\gallery.aspx" />
+    <Content Include="pages\interpretations.aspx" />
+    <Content Include="pages\laws.aspx" />
     <Content Include="pages\login.aspx" />
     <Content Include="pages\newsreel.aspx" />
     <Content Include="pages\Redirectform.aspx" />
+    <Content Include="pages\reports.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +143,27 @@
     <Compile Include="pages\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pages\gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\interpretations.aspx.cs">
+      <DependentUpon>interpretations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\interpretations.aspx.designer.cs">
+      <DependentUpon>interpretations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\laws.aspx.cs">
+      <DependentUpon>laws.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\laws.aspx.designer.cs">
+      <DependentUpon>laws.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,6 +177,13 @@
     </Compile>
     <Compile Include="pages\newsreel.aspx.designer.cs">
       <DependentUpon>newsreel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\reports.aspx.cs">
+      <DependentUpon>reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\reports.aspx.designer.cs">
+      <DependentUpon>reports.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="pages\Redirectform.aspx.cs">
