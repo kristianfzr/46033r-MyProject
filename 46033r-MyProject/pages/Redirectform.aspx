@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1 style="text-align:center">You have successfully logged in!</h1>
         </div>
     </form>
 </body>

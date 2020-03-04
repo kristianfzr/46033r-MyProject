@@ -8,6 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <p align="left" style="color:red">Hint: user = Kristian pass=123</p>
         <div class="LoginForm" align="center">
             <table>
                 <tr>
