@@ -47,7 +47,16 @@ function _doClick(v, o, t) {
 </div>
 <div id="navigation-container">
 	<div id="navigation">
-		<ul><li id="home"><a id="home" href="/MainPage.aspx" title="" >Начало</a></li><li class="mnav_sel" id="about"><a class="mnav_sel" id="about" href="/pages/about" title="За Върховния административен съд" >За ВАС</a></li><li id="news"><a id="news" href="/pages/newsreel.aspx" title="Новини" >Новини</a></li><li id="practice"><a id="practice" href="/pages/interpretations.aspx" title="Съдебна практика" >Съдебна практика</a></li><li id="citizens"><a id="citizens" href="/pages/laws" title="За граждани" >Полезно</a></li><li id="inquiry"><a id="inquiry" href="/pages/reports" title="Справки" >Справки</a></li></ul>
+		<ul><li id="home"><a id="home" href="/MainPage.aspx" title="" >Начало</a></li>
+            <li id="about"><a id="about" href="/pages/about.aspx" title="За Върховния административен съд" >За ВАС</a></li>
+            <li class="mnav_sel" id="news"><a class="mnav_sel" id="news" href="/pages/newsreel" title="Новини" >Новини</a></li>
+            <li id="practice"><a id="practice" href="/pages/interpretations" title="Съдебна практика" >Съдебна практика</a></li>
+            <li id="citizens"><a id="citizens" href="/pages/laws" title="За граждани" >Полезно</a></li>
+            <li id="inquiry"><a id="inquiry" href="/pages/reports" title="Справки" >Справки</a></li>
+            <li id="gallery"><a id="gallery" href="/pages/gallery.aspx" title="Галерия" >Галерия</a></li>
+            <li id="login"><a id="login" href="/pages/login.aspx" title="Вход" >Вход</a></li>
+            </ul>
+        </div>
 		<div id="search">
 			</form>
 			<form id="fNewSearch" action="/home.nsf/fNewSearch" method="POST" onSubmit="return check_search_fields()">

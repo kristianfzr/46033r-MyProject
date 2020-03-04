@@ -84,6 +84,7 @@
     <Content Include="images\favicon.ico" />
     <Content Include="images\footer-eu-flags.jpg" />
     <Content Include="images\header-back.jpg" />
+    <Content Include="images\IMG_0004.jpg" />
     <Content Include="images\InoModel.jpg" />
     <Content Include="images\jalbi_signali.jpg" />
     <Content Include="images\rss.jpg" />
@@ -101,7 +102,9 @@
     <Content Include="js\jquery.fancybox.pack.js" />
     <Content Include="MainPage.aspx" />
     <Content Include="pages\about.aspx" />
+    <Content Include="images\KS3.jpg" />
     <Content Include="pages\login.aspx" />
+    <Content Include="pages\newsreel.aspx" />
     <Content Include="pages\Redirectform.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -129,6 +132,13 @@
     </Compile>
     <Compile Include="pages\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\newsreel.aspx.cs">
+      <DependentUpon>newsreel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\newsreel.aspx.designer.cs">
+      <DependentUpon>newsreel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="pages\Redirectform.aspx.cs">
