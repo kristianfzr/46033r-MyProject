@@ -79,12 +79,11 @@
 			<div id="imagery"><img src="/images/side-image-6.jpg" atl="врати"/></div>
 		</div>
 		<div id="body-content" style="width: 728px">
-		<!-- PARENTS - START -->
+	
 		<div id="breadcrumb"><a class="parents_nav" href="/pages/bg/" title="Над 60 000 дела са решени във ВАС и 28-те административни съдилища в страната за 2017 г."></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/bg/" title="ВАС с преюдициално запитване до СЕС по казус с незрящ съдебен заседател, недопускан до заседания в СРС "></a><img src="/images/tnavnext.gif" /><a class="parents_nav" href="/pages/bg/" title="ВАС отхвърли жалба на кандидата за кмета на София Мая Манолова срещу решение на ЦИК"></a><img src="/images/tnavlast.gif" /></div>
-		<!-- PARENTS - END -->
-		<!-- TITLE - START -->
+
 		<h1></h1>
-		<!-- TITLE - END --><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="" valign=top>
+		<TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="" valign=top>
   
 </TD></TR></TABLE><TABLE border=0 width=100% cellspacing=0 cellpadding=0><TR><TD style="" valign=top>
  <br>
