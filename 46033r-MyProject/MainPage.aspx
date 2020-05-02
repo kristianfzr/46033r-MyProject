@@ -55,6 +55,7 @@
             <li id="inquiry"><a id="inquiry" href="/pages/reports.aspx" title="Справки" >Справки</a></li>
             <li id="gallery"><a id="gallery" href="/pages/gallery.aspx" title="Галерия" >Галерия</a></li>
             <li id="login"><a id="login" href="/pages/login.aspx" title="Вход" >Вход</a></li>
+            <li id="clients"><a id="clients" href="/pages/clients.aspx" title="Клиенти" >Клиенти</a></li>
             </ul>
         </div>
 		<div id="search">

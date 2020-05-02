@@ -13,5 +13,10 @@ namespace _46033r_MyProject.pages
         {
 
         }
+
+        protected void go_back_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/MainPage.aspx");
+        }
     }
 }

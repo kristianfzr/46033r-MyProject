@@ -13,6 +13,7 @@
             <h1>Cleints Database Connection to Unibit</h1>
         </div>
         <center>
+            <asp:Button ID="go_back" runat="server" OnClick="go_back_Click" Text="Go Back" BorderStyle="Solid" Height="17px" Width="100px" />
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="ID_CLIENT" DataSourceID="ClientsDatabaseConnection" ForeColor="#333333" GridLines="Both" Height="431px" Width="862px">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
