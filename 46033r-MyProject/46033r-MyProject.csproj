@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.7.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -116,6 +119,7 @@
     <Content Include="MainPage.aspx" />
     <Content Include="pages\about.aspx" />
     <Content Include="images\KS3.jpg" />
+    <Content Include="pages\Clients.aspx" />
     <Content Include="pages\gallery.aspx" />
     <Content Include="pages\interpretations.aspx" />
     <Content Include="pages\laws.aspx" />
@@ -142,6 +146,13 @@
     </Compile>
     <Compile Include="pages\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Clients.aspx.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Clients.aspx.designer.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\gallery.aspx.cs">
       <DependentUpon>gallery.aspx</DependentUpon>
