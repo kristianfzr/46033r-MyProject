@@ -119,6 +119,7 @@
     <Content Include="MainPage.aspx" />
     <Content Include="pages\about.aspx" />
     <Content Include="images\KS3.jpg" />
+    <Content Include="pages\Bank.aspx" />
     <Content Include="pages\Clients.aspx" />
     <Content Include="pages\gallery.aspx" />
     <Content Include="pages\interpretations.aspx" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="pages\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Bank.aspx.cs">
+      <DependentUpon>Bank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Bank.aspx.designer.cs">
+      <DependentUpon>Bank.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Clients.aspx.cs">
       <DependentUpon>Clients.aspx</DependentUpon>

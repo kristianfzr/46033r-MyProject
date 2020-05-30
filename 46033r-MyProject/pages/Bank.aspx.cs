@@ -7,16 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace _46033r_MyProject.pages
 {
-    public partial class Clients : System.Web.UI.Page
+    public partial class Bank : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void go_back_Click(object sender, EventArgs e)
+        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
-            Response.Redirect("~/MainPage.aspx");
+
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
